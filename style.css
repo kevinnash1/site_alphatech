@@ -49,6 +49,55 @@
     background-image: url('./robot.png');
     background-color: #007BFF;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
     width: 100%;
+    display: flex;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.banner-box-first h1 {
+    color: white;
+    font-size: 4rem;
+    max-width: 60%;
+    font-weight: bold;
+}
+
+.banner-box-first p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 16px;
+    max-width: 58%;
+    letter-spacing: 2px;
+}
+
+.banner-box-second p {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(to right, white, red);
+    background-clip: text;
+    color: transparent;
+}
+
+/* APROPOS */
+
+.apropos {
+    background-color: rgba(0, 0, 0, 0.904);
+    padding: 100px
+}
+
+.apropos-title h2 {
+    color: white;
+}
+
+.apropos-title p {
+    color: white;
+    font-size: 68px;
+    font-weight: 600;
+    margin-top: 20px;
 }
